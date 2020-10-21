@@ -1,0 +1,77 @@
+/* Default */
+body {
+	font-family:verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/* pengaturan halaman */
+#container{
+	width: 1000px;
+	font-size: 90%;
+	margin: 0 auto;
+}
+
+/* Pengaturan header */
+#header{
+	padding: 7px 0px;
+
+	height: 75px;
+	border: black solid 1px;
+}
+
+#header h1 {
+	padding: 10px;
+	height: 11px;
+	color: #4897c9;
+	font-family:'trebuchet ms', helvetica, arial, sans-serif;
+}
+
+
+ul#navmenu {
+	
+	margin: 0 auto;
+	text-align: center;
+	padding: 7px 0px;
+	height: 0px;
+
+	list-style-type: none;
+}
+
+ul#navmenu a {
+	border: black solid 1px;
+	width: auto;
+	height: auto;
+	padding: 2px 7px;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}s
+
+ul#navmenu a:hover, ul#navmenu a:focus, ul#navmenu a:active {
+	background-color: #4897c9;
+	color: #fff;
+}
+
+/* Pengaturan Content */
+#page{
+	border: black solid 1px;
+	margin-top: 2px;
+	padding: 15px;
+}
+
+#clear{
+	clear: both;
+}
+
+/* Pengaturan Footer */
+#footer{
+	border: black solid 1px;
+	margin-top: 2px;
+	text-align: center;
+}
+
+.foto {
+	width: 400px;
+	height: 400px;
+}
